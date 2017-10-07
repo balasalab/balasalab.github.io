@@ -1,0 +1,53 @@
+{
+  "project": {
+    "name": "Asd",
+    "version": "1.0"
+  },
+  "menu": {
+    "home": {
+      "url": "/home"
+    },
+    "contact": {
+      "url": "/contact"
+    }
+  },
+  "experience": {
+    "0": {
+      "name": "Company name",
+      "position": "Position",
+      "year": [
+        "2012",
+        "2013"
+      ]
+    }
+  },
+  "education": {
+    "0": {
+      "name": "college name",
+      "course": "degrees name",
+      "year": [
+        "2013",
+        "2014"
+      ]
+    }
+  },
+  "bio": {
+    "name": "asd",
+    "age": "asd",
+    "language": [
+      "tamil",
+      "english"
+    ],
+    "address": [
+      "address line 1",
+      "address line 2"
+    ],
+    "contact": [
+      "1234567890",
+      "0987654321"
+    ]
+  },
+  "hobbies": {},
+  "achievements": {},
+  "string": "Hello World"
+}
