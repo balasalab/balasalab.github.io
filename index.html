@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
 </head>
 
 <body ng-app="myApp" ng-controller="myCtrl">
@@ -27,9 +28,46 @@
             </form>
         </div>
     </nav>
-    <div classs="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
+                <center>
+                    <img src="{{data.bio.image}}" height="200px" />
+                </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <center>
+                    <h1>{{data.bio.name}}</h1>
+                    <h3>{{data.bio.title}}</h3>
+                </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="time_div">
+                    <div ng-repeat="(blockkey, blockval) in data.block">
+                        <div class="main">
+                            <h1 class="capitalize">{{blockval.name}}</h1>
+                            <p>block desc</p>
+                        </div>
+                        <div class="timeline">
+                            <div ng-repeat="(key, value) in blockval.content" class="column">
+                                <div class="title">
+                                    <h1> {{value.year[0]}} </h1>
+                                    <h2> {{value.name}} </h2>
+                                </div>
+                                <div class="description">
+                                    <p> {{value.description}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- block repeat-->
+
+                </div>
+                <!--timediv-->
             </div>
         </div>
     </div>
@@ -57,6 +95,92 @@
     <style>
         .capitalize {
             text-transform: capitalize;
+        }
+        
+        body {
+            font-family: 'Dosis', sans-serif;
+        }
+        
+        @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+        .time_div {
+            pading: 0;
+            margin: 0;
+            /*font-family: "Lato", sans-serif;*/
+            position: relative;
+        }
+        
+        .timeline {
+            /*padding: 40px 0px;*/
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 40px;
+        }
+        
+        .timeline:before {
+            content: "";
+            position: absolute;
+            top: 40px;
+            left: 65px;
+            width: 3px;
+            height: calc(100% - 80px);
+            background: #c0392b;
+        }
+        
+        .timeline .column {
+            margin: 40px 40px 40px 120px;
+        }
+        
+        .timeline .column .title h1 {
+            font-size: 60px;
+            color: rgba(0, 0, 0, 0.1);
+            font-family: serif;
+            letter-spacing: 3px;
+        }
+        
+        .timeline .column .title h1:before {
+            content: "";
+            position: absolute;
+            left: -62px;
+            top: 86px;
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border: 3px solid #c0392b;
+        }
+        
+        .timeline .column .title h2 {
+            margin-top: -20px;
+            font-size: 33px;
+        }
+        
+        .timeline .column .description p {
+            font-size: 13px;
+            line-height: 20px;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-family: serif;
+        }
+        
+        .timeline .column .description {
+            border-left: 1px solid #000;
+        }
+        
+        .main {
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 80px;
+        }
+        
+        .main h1 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        
+        .main p {
+            font-size: 13px;
+            line-height: 20px;
+            font-family: serif;
+            text-align: right;
         }
     </style>
 </body>
