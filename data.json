@@ -1,6 +1,6 @@
 {
   "project": {
-    "name": "Asd",
+    "name": "Selfimo",
     "version": "1.0"
   },
   "menu": {
@@ -11,20 +11,70 @@
       "url": "/contact"
     }
   },
-  "experience": {
+  "block": {
     "0": {
-      "name": "Company name",
-      "position": "Position",
-      "year": [
-        "2012",
-        "2013"
-      ]
+      "name": "education",
+      "type": "timeline",
+      "content": {
+        "0": {
+          "name": "college name",
+          "course": "degrees name",
+          "description": "asdasdas dasda sdasd",
+          "year": [
+            "2013",
+            "2014"
+          ]
+        },
+        "1": {
+          "name": "college name",
+          "course": "degrees name",
+          "description": "asdasdas dasda sdasd",
+          "year": [
+            "2013",
+            "2014"
+          ]
+        }
+      }
+    },
+    "1": {
+      "name": "experience",
+      "type": "timeline",
+      "content": {
+        "0": {
+          "name": "Company name",
+          "position": "Position",
+          "description": "asdasdas dasda sdasd",
+          "year": [
+            "2012",
+            "2013"
+          ]
+        },
+        "1": {
+          "name": "Company name",
+          "position": "Position",
+          "description": "asdasdas dasda sdasd",
+          "year": [
+            "2012",
+            "2013"
+          ]
+        }
+      }
     }
   },
   "education": {
     "0": {
       "name": "college name",
       "course": "degrees name",
+      "description": "asdasdas dasda sdasd",
+      "year": [
+        "2013",
+        "2014"
+      ]
+    },
+    "1": {
+      "name": "college name",
+      "course": "degrees name",
+      "description": "asdasdas dasda sdasd",
       "year": [
         "2013",
         "2014"
@@ -32,7 +82,9 @@
     }
   },
   "bio": {
-    "name": "asd",
+    "image": "https://cdn2.iconfinder.com/data/icons/avatars-vol-1-1/64/avatar-afro-black-man-beard-512.png",
+    "name": "Andrew",
+    "title": "Entrepreneur, CEO & Founder",
     "age": "asd",
     "language": [
       "tamil",
