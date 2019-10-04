@@ -1,4 +1,5 @@
 {
+  "string": "Hello World",
   "project": {
     "name": "Selfimo",
     "version": "1.0"
@@ -101,5 +102,10 @@
   },
   "hobbies": {},
   "achievements": {},
-  "string": "Hello World"
+  "skill_history": {
+    "hbase": {
+      "date": "01/09/2019",
+      "description": "hbase shell | scan 'table_name' | get 'table_name', 'row_id' | scan 'table_name', {LIMIT=>1} | show_filters | describe 'table_name' "
+    }
+  }
 }
