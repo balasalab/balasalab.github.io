@@ -18,12 +18,12 @@
       "type": "timeline",
       "content": {
         "0": {
-          "name": "college name",
-          "course": "degrees name",
+          "name": "Aalim muhammed salegh college of engineering",
+          "course": "Computer Science & Engineering",
           "description": "asdasdas dasda sdasd",
           "year": [
-            "2013",
-            "2014"
+            "2008",
+            "2012"
           ]
         },
         "1": {
@@ -85,7 +85,7 @@
   "bio": {
     "image": "https://d1qb2nb5cznatu.cloudfront.net/users/691768-large?1494470128",
     "name": "Balasubramanian Jayamoorthy",
-    "title": "Entrepreneur, CEO & Founder",
+    "title": "Entrepreneur, Software Engineer",
     "age": "asd",
     "language": [
       "tamil",
