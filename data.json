@@ -27,12 +27,12 @@
           ]
         },
         "1": {
-          "name": "college name",
-          "course": "degrees name",
-          "description": "asdasdas dasda sdasd",
+          "name": "Government Higher Secondary School",
+          "course": "HSC",
+          "description": "Maths & Computer Science",
           "year": [
-            "2013",
-            "2014"
+            "2007",
+            "2008"
           ]
         }
       }
