@@ -22,8 +22,8 @@
           "course": "Computer Science & Engineering",
           "description": "asdasdas dasda sdasd",
           "year": [
-            "2008",
-            "2012"
+            "2012",
+            "2008"
           ]
         },
         "1": {
@@ -31,8 +31,8 @@
           "course": "HSC",
           "description": "Maths & Computer Science",
           "year": [
-            "2007",
-            "2008"
+            "2008",
+            "2007"
           ]
         }
       }
@@ -42,21 +42,21 @@
       "type": "timeline",
       "content": {
         "0": {
-          "name": "Company name",
-          "position": "Position",
-          "description": "asdasdas dasda sdasd",
+          "name": "Athenahealth",
+          "position": "Senior Software Engineer",
+          "description": "Backend Dev, Dev-ops",
           "year": [
-            "2012",
-            "2013"
+            "now",
+            "2019"
           ]
         },
         "1": {
-          "name": "Company name",
-          "position": "Position",
-          "description": "asdasdas dasda sdasd",
+          "name": "Contus",
+          "position": "Senior Software Engg",
+          "description": "Backend Dev, Dev-ops",
           "year": [
-            "2012",
-            "2013"
+            "2019",
+            "2017"
           ]
         }
       }
