@@ -13,6 +13,30 @@
     }
   },
   "block": {
+    "0": {
+      "name": "experience",
+      "type": "timeline",
+      "content": {
+        "0": {
+          "name": "Athenahealth",
+          "position": "Senior Software Engineer",
+          "description": "Backend Dev, Dev-ops",
+          "year": [
+            "now",
+            "2019"
+          ]
+        },
+        "1": {
+          "name": "Contus",
+          "position": "Senior Software Engg",
+          "description": "Backend Dev, Dev-ops",
+          "year": [
+            "2019",
+            "2017"
+          ]
+        }
+      }
+    },
     "1": {
       "name": "education",
       "type": "timeline",
@@ -37,30 +61,6 @@
         }
       }
     },
-    "0": {
-      "name": "experience",
-      "type": "timeline",
-      "content": {
-        "0": {
-          "name": "Athenahealth",
-          "position": "Senior Software Engineer",
-          "description": "Backend Dev, Dev-ops",
-          "year": [
-            "now",
-            "2019"
-          ]
-        },
-        "1": {
-          "name": "Contus",
-          "position": "Senior Software Engg",
-          "description": "Backend Dev, Dev-ops",
-          "year": [
-            "2019",
-            "2017"
-          ]
-        }
-      }
-    }
   },
   "education": {
     "0": {
